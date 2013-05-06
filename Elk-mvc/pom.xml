@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.toozhao</groupId>
+    <artifactId>Elk-mvc</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>Elk MVC framework</name>
+    <packaging>jar</packaging>
+    <description>Yet another MVC framework</description>
+    <url>https://github.com/szpyxlwoni/Elk</url>
+    <parent>
+        <groupId>com.toozhao</groupId>
+        <artifactId>Elk</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <licenses>
+        <license>
+            <name>MIT Licence</name>
+            <url>MIT Licence</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/szpyxlwoni/Elk.git</url>
+        <connection>git@github.com:szpyxlwoni/Elk.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>junv</id>
+            <name>Junv</name>
+            <email>wahyd4@gmail.com</email>
+        </developer>
+        <developer>
+            <id>szpyxlwoni</id>
+            <name>szpyxlwoni</name>
+            <email>szpyxlwoni@gmail.com</email>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>14.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>2.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+
+    </dependencies>
+    <build>
+        <plugins>
+            
+        </plugins>
+    </build>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-oss</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+</project>
